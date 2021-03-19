@@ -1,0 +1,1 @@
+docker run --rm -ti -v ${PWD}/web:/web --name php-built-in php:8-cli php -S 0.0.0.0:9000 -t web/
